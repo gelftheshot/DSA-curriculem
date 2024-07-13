@@ -9,4 +9,3 @@ def decimal_to_binary(n: int) -> str:
     if n == 0 or n == 1:
         return str(n)
     return decimal_to_binary(n // 2) + str(n % 2)
-print(decimal_to_binary(8))
